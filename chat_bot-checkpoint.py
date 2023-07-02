@@ -43,6 +43,6 @@ def set_reminder(reminder):
     date = reminder['date']
     reminder_date = datetime.datetime.strptime(date, '%Y-%m-%d')
     reminders[task] = reminder_date
-
+##running the flask app
 if __name__ == '__main__':
-    app.run()
+    app.run().
